@@ -1,0 +1,23 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.dotfiles: ''
+    ~/.editorconfig: editorconfig
+    ~/.gitignore: gitignore
+    ~/.oh-my-zsh/custom: oh-my-zsh
+    ~/.vimrc: vimrc
+    ~/.zshrc: zshrc
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  -
+    command: ./update.sh
+    description: Running additional update tasks
+    stdin: true
+    stdout: true
+    stderr: true

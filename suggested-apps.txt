@@ -1,0 +1,17 @@
+Firefox
+https://www.mozilla.org/en-US/firefox/
+
+Google Chrome
+https://chrome.google.com/
+
+Telegram
+https://telegram.org/downloads
+
+VS Code
+https://code.visualstudio.com/
+
+Google Play Music Desktop Player
+https://www.googleplaymusicdesktopplayer.com/
+
+New Mac Setup
+https://docs.google.com/document/d/1CmCrsAYmMK8HHFX_s4L2XQKlKGGFjmGXeBCUm8JBdfM/
