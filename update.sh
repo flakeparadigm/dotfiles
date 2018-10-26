@@ -7,12 +7,9 @@ source ./utils/detect-os.sh
 
 if [ "$OS" == 'macos' ]; then
     echo "Starting macOS Update"
-    sudo softwareupdate -iva
+    sudo softwareupdate -ia
     brew update
     brew upgrade --all
-
-    ./setup/macos.sh
-
 elif [ "$OS" == 'linux' ]; then
     echo "Starting Linux Updates"
     sudo apt update

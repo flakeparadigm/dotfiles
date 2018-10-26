@@ -19,6 +19,12 @@
     ~/Library/Preferences/com.googlecode.iterm2.plist:
       path: iterm/com.googlecode.iterm2.plist
       if: test -d ~/Library/Preferences
+    ~/Library/Application\ Support/Code/User/settings.json:
+      path: vscode/settings.json
+      if: test -d ~/Library/Application\ Support/Code/
+    ~/Library/Application\ Support/Code/User/keybindings.json:
+      path: vscode/keybindings.json
+      if: test -d ~/Library/Application\ Support/Code/
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

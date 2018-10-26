@@ -1,0 +1,42 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "atomKeymap.promptV3Features": true,
+    "editor.fontSize": 12,
+    "editor.lineHeight": 20,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "editor.minimap.showSlider": "always",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.scrollBeyondLastLine": false,
+    "editor.renderLineHighlight": "all",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    // "files.associations": {
+    //     "*.js": "flow"
+    // },
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "search.useIgnoreFiles": true,
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.lineHeight": 1.1,
+    "workbench.colorTheme": "Bluloco Light",
+    "git.autofetch": true,
+    "workbench.statusBar.feedback.visible": false,
+    "window.zoomLevel": 0,
+    "extensions.ignoreRecommendations": false,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript"
+    ],
+    "explorer.confirmDelete": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "breadcrumbs.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.minimap.renderCharacters": false
+}
