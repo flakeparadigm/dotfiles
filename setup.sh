@@ -26,9 +26,11 @@ if ! git rev-parse --git-dir &> /dev/null; then
     git submodule add https://github.com/anishathalye/dotbot
 fi
 
-./install
-
+# Install Oh-my-ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Dotbot and Git setups
+./install
 ./setup/git.sh
 ./setup/gitconfig.sh
 

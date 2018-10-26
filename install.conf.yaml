@@ -9,9 +9,13 @@
     ~/.dotfiles: ''
     ~/.editorconfig: editorconfig
     ~/.gitignore: gitignore
-    ~/.oh-my-zsh/custom: oh-my-zsh
+    ~/.oh-my-zsh/custom:
+      force: true
+      path: oh-my-zsh
     ~/.vimrc: vimrc
-    ~/.zshrc: zshrc
+    ~/.zshrc:
+      force: true
+      path: zshrc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

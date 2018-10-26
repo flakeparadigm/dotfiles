@@ -60,6 +60,7 @@ brew install git-extras
 brew install gnupg
 brew install hub
 brew install ssh-copy-id
+brew install thefuck
 brew install tree
 brew install xz
 
