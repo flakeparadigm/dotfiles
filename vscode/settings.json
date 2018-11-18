@@ -39,5 +39,6 @@
     "breadcrumbs.enabled": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.minimap.renderCharacters": false,
-    "editor.renderWhitespace": "boundary"
+    "editor.renderWhitespace": "boundary",
+    "workbench.settings.editor": "json"
 }

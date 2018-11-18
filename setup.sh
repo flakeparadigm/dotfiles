@@ -15,6 +15,7 @@ if [ "$OS" == 'macos' ]; then
     echo "Starting macOS Setup"
     ./setup/brew.sh
     ./setup/macos.sh
+    ./setup/darkmode.sh
 elif [ "$OS" == 'linux' ]; then
     echo "Starting Linux Setup"
 fi

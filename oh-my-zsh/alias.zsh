@@ -17,6 +17,7 @@ alias gpf="git push --force-with-lease"
 alias gr="git rebase"
 alias gs="git status"
 alias gss="git stash show -p"
+alias gcp="git cherry-pick -x"
 
 # vg
 alias vt="vgtest run -t"
