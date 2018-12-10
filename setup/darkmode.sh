@@ -19,8 +19,16 @@ plistS=~/Library/LaunchAgents/io.github.katernet.darkmode.sunset.plist
 darkMode() {
 	case $1 in
 		off)
-			# Disable dark mode (using `dark-mode` from brew)
-			dark-mode off
+			# Disable dark mode
+			osascript -e '
+			tell application id "com.apple.systemevents"
+				tell appearance preferences
+					if dark mode is true then
+						set dark mode to false
+					end if
+				end tell
+			end tell
+			'
 
 			# Alfred
 			if ls /Applications/Alfred*.app >/dev/null 2>&1; then # If Alfred installed
@@ -33,8 +41,8 @@ darkMode() {
 			fi
 
 			if [ -f "$plistR" ] || [ -f "$plistS" ]; then # Prevent uninstaller from continuing
-				# Run solar query on first day of week
-				if [ "$(date +%u)" = 1 ]; then
+				# Run solar query on second day of week
+				if [ "$(date +%u)" = 2 ]; then
 					solar
 				fi
 				# Get sunset launch agent start interval time
@@ -48,8 +56,16 @@ darkMode() {
 			fi
 			;;
 		on)
-			# Enable dark mode (using `dark-mode` from brew)
-			dark-mode on
+			# Enable dark mode
+			osascript -e '
+			tell application id "com.apple.systemevents"
+				tell appearance preferences
+					if dark mode is false then
+						set dark mode to true
+					end if
+				end tell
+			end tell
+			'
 
 			# Alfred
 			if ls /Applications/Alfred*.app >/dev/null 2>&1; then
