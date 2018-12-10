@@ -4,6 +4,8 @@
 # This script is preferred over a set config file because key and repo configs
 # may differ between each machine.
 
+git config --global user.signingkey 346B31A6644E8FB0C1B9B9A9B410B865CE9382A6
+git config --global commit.gpgsign true
 git config --global branch.autosetuprebase always
 git config --global diff.submodule log
 git config --global merge.conflictstyle diff3

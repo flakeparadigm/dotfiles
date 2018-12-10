@@ -32,7 +32,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 # Dotbot and Git setups
 ./install
-./setup/git.sh
 ./setup/gitconfig.sh
 
 # Fix this repo to use the proper ssh remotes now that git is configured
