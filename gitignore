@@ -34,5 +34,8 @@ Temporary Items
 #!.vscode/extensions.json
 jsconfig.json
 
+### IntelliJ IDEA ###
+.idea
+
 ### NFS Shares caches
 .nfs.*

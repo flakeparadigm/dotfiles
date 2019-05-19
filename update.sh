@@ -9,7 +9,7 @@ if [ "$OS" == 'macos' ]; then
     echo "Starting macOS Update"
     sudo softwareupdate -ia
     brew update
-    brew upgrade --all
+    brew upgrade
     ./setup/iterm.sh
 elif [ "$OS" == 'linux' ]; then
     echo "Starting Linux Updates"

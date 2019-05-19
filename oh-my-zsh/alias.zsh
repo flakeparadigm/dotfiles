@@ -24,6 +24,7 @@ alias vt="vgtest run -t"
 alias vw="vgutil workflow"
 alias vb="vgbuild dev"
 alias vbw="vgbuild watch"
+alias vgsyslog="vgutil run \"sudo journalctl -f\""
 
 # env
 alias vgdbg="DEBUGGER=true LRN_VG_VARS=DEBUGGER"

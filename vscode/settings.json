@@ -7,8 +7,8 @@
     "editor.wordWrap": "on",
     "editor.minimap.showSlider": "always",
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnType": true,
-    "editor.formatOnPaste": true,
+    "editor.formatOnType": false,
+    "editor.formatOnPaste": false,
     "editor.scrollBeyondLastLine": false,
     "editor.renderLineHighlight": "all",
     "editor.rulers": [
@@ -40,5 +40,13 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.minimap.renderCharacters": false,
     "editor.renderWhitespace": "boundary",
-    "workbench.settings.editor": "json"
+    "workbench.settings.editor": "json",
+    "phpcs.executablePath": "/Users/tyler/.composer/vendor/bin/phpcs",
+    "phpcs.standard": "PSR2",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.formatOnSave": false,
+    "python.jediEnabled": false,
+    "python.linting.enabled": true,
+    "java.configuration.checkProjectSettingsExclusions": false
 }

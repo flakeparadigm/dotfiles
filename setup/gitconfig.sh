@@ -15,3 +15,4 @@ git config --global rebase.autosquash true
 git config --global pull.rebase true
 git config --global rebase.autoStash true
 git config --global tag.sort version:refname
+git config --global core.excludesfile ~/.gitignore

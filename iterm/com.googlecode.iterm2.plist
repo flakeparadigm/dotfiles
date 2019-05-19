@@ -156,12 +156,20 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>2703 696 400 129 1920 0 1920 1057 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>2570 498 620 392 1920 0 1920 1057 </string>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>2189 126 606 469 1920 0 1920 1057 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>2189 109 796 486 1920 0 1920 1057 </string>
+	<string>2184 136 796 486 1920 0 1920 1057 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
-	<string>1920 473 592 584 1920 0 1920 1057 </string>
+	<string>47 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>2738 103 985 622 1920 0 1920 1057 </string>
+	<string>2783 45 970 622 1920 0 1920 1057 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>2213 247 970 622 1920 0 1920 1057 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1456,13 +1464,15 @@
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>3FDB8ADA-EBC1-44CC-AC28-1D10E07B9E25</string>
+	<string>11B9076D-C761-4B69-98F3-BD205107D41F</string>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>564278701.30710804</real>
+	<real>564279406.48098302</real>
 	<key>PasteTabToStringTabStopSize</key>
 	<integer>4</integer>
 	<key>PointerActions</key>
@@ -1507,11 +1517,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=12</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=73</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-11-19T00:07:50Z</date>
+	<date>2019-03-29T03:57:18Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
@@ -1523,7 +1533,7 @@
 		<string>Captured Output</string>
 	</array>
 	<key>UKCrashReporterLastCrashReportDate</key>
-	<real>1542585856</real>
+	<real>1542586624</real>
 	<key>UseBorder</key>
 	<false/>
 	<key>WordCharacters</key>
@@ -1535,7 +1545,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.2.5</string>
+	<string>3.2.8</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
