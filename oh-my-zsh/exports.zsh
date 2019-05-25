@@ -11,7 +11,6 @@ export GPG_TTY=$(tty)
 if [ "$(uname)" = 'Darwin' ]; then
     export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
     gpg-connect-agent updatestartuptty /bye > /dev/null 2>&1
-    gpgconf --launch gpg-agent > /dev/null 2>&1
 elif [ "$(uname)" = 'Linux' ]; then
     export SSH_AUTH_SOCK="/run/user/$UID/gnupg/S.gpg-agent.ssh"
     gpg-connect-agent updatestartuptty /bye > /dev/null 2>&1
