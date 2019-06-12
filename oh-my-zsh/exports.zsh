@@ -6,12 +6,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export GPG_TTY=$(tty)
-
 if [ "$(uname)" = 'Darwin' ]; then
     export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
-    gpg-connect-agent updatestartuptty /bye > /dev/null 2>&1
 elif [ "$(uname)" = 'Linux' ]; then
+    # export GPG_TTY=$(tty)
     export SSH_AUTH_SOCK="/run/user/$UID/gnupg/S.gpg-agent.ssh"
     gpg-connect-agent updatestartuptty /bye > /dev/null 2>&1
 fi

@@ -58,6 +58,7 @@ brew install git-lfs
 brew install git-flow
 brew install git-extras
 brew install gnupg
+brew install pinentry-mac
 brew install hub
 brew install ssh-copy-id
 brew install thefuck
