@@ -24,8 +24,8 @@
     ~/Library/Application Support/Code/User/keybindings.json:
       path: vscode/keybindings.json
       if: test -d ~/Library/Application\ Support/Code/
-    ~/Library/LaunchAgents/homebrew.gpg.gpg-agent.plist:
-      path: gnupg/homebrew.gpg.gpg-agent.plist
+    ~/Library/LaunchAgents/gpg.gpg-agent.plist:
+      path: gnupg/gpg.gpg-agent.plist
       if: test -d ~/Library/LaunchAgents/
 
 - shell:
