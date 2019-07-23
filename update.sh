@@ -6,7 +6,7 @@ cd "${BASEDIR}"
 source ./utils/detect-os.sh
 
 if [ "$OS" == 'macos' ]; then
-    echo "Starting macOS Update"
+    echo "Starting macOS Updates"
     sudo softwareupdate -ia
     brew update
     brew upgrade
