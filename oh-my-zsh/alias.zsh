@@ -29,5 +29,8 @@ alias vgsyslog="vgutil run \"sudo journalctl -f\""
 # env
 alias vgdbg="DEBUGGER=true LRN_VG_VARS=DEBUGGER"
 
+# PHP
+alias pbc="php bin/console"
+
 # python
 alias pyenv="source ./env/bin/activate"
