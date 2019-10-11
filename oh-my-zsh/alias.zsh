@@ -11,7 +11,7 @@ alias ca="cd ~/salt-developer/code/api"
 # git
 alias gb="git checkout -b"
 alias gfd="git diff --name-only HEAD..develop"
-alias gl="git log --oneline -20 --decorate"
+alias gl="git log --oneline -30 --decorate"
 alias gp="git pull && git submodule update && git status"
 alias gpf="git push --force-with-lease"
 alias gr="git rebase"

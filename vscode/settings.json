@@ -8,7 +8,7 @@
     "editor.minimap.showSlider": "always",
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnType": false,
-    "editor.formatOnPaste": false,
+    "editor.formatOnPaste": true,
     "editor.scrollBeyondLastLine": false,
     "editor.renderLineHighlight": "all",
     "editor.rulers": [
@@ -45,7 +45,7 @@
     "phpcs.standard": "PSR2",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "python.jediEnabled": false,
     "python.linting.enabled": true,
     "java.configuration.checkProjectSettingsExclusions": false
