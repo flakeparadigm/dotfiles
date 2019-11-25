@@ -19,7 +19,7 @@ fi
 brew update
 
 # Upgrade any already-installed formulae.
-brew upgrade --all
+brew upgrade
 
 # Install GNU core utilities (those that come with OS X are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
@@ -45,8 +45,8 @@ sudo bash -c 'echo /usr/local/bin/zsh >> /etc/shells'
 # Change to the new shell, prompts for password
 chsh -s /usr/local/bin/zsh
 
-# Install `wget` with IRI support.
-brew install wget --with-iri
+# Install `wget`.
+brew install wget
 
 # Install Python
 brew install python
