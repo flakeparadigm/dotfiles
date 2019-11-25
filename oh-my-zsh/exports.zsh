@@ -13,3 +13,7 @@ elif [ "$(uname)" = 'Linux' ]; then
     export SSH_AUTH_SOCK="/run/user/$UID/gnupg/S.gpg-agent.ssh"
     gpg-connect-agent updatestartuptty /bye > /dev/null 2>&1
 fi
+
+if [[ -d ~/.gem/ruby/2.3.0/bin ]] ; then
+    export PATH=~/.gem/ruby/2.3.0/bin:$PATH
+fi

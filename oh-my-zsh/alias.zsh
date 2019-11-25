@@ -34,3 +34,7 @@ alias pbc="php bin/console"
 
 # python
 alias pyenv="source ./env/bin/activate"
+
+# macOS shortcuts
+alias clearbadge="defaults write com.apple.systempreferences AttentionPrefBundleIDs 0 && killall Dock"
+
