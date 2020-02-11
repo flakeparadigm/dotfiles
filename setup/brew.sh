@@ -52,7 +52,6 @@ brew install wget
 brew install python
 
 # Install other useful binaries.
-brew install dark-mode
 brew install git
 brew install git-lfs
 brew install git-flow
@@ -76,18 +75,20 @@ brew cask install --appdir="~/Applications" iterm2
 
 # Development tool casks
 brew cask install --appdir="/Applications" visual-studio-code
-brew cask install --appdir="/Applications" atom
 
 # Misc casks
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" firefox
-brew cask install --appdir="/Applications" gimp
 
 #Remove comment to install LaTeX distribution MacTeX
 #brew cask install --appdir="/Applications" mactex
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv qlimagesize webpquicklook suspicious-package
+brew cask install qlstephen qlcolorcode qlmarkdown quicklook-json qlprettypatch quicklook-csv qlimagesize webpquicklook suspicious-package
+
+# Fix QL plugins for Catalina
+defaults write org.n8gray.QLColorCode pathHL $(which highlight)
+xattr -cr ~/Library/QuickLook/QLMarkdown.qlgenerator
 
 # Remove outdated versions from the cellar.
 brew cleanup

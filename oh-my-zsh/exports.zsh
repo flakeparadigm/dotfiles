@@ -1,5 +1,3 @@
-# export PATH=~/Library/Python/2.7/bin:$PATH:/Users/tyler/salt-developer/scripts
-# export PATH=~/go/bin:$PATH
 export PATH=~/.composer/vendor/bin:$PATH
 
 export NVM_DIR="$HOME/.nvm"
