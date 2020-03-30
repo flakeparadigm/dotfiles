@@ -83,12 +83,5 @@ brew cask install --appdir="/Applications" firefox
 #Remove comment to install LaTeX distribution MacTeX
 #brew cask install --appdir="/Applications" mactex
 
-# Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
-brew cask install qlstephen qlcolorcode qlmarkdown quicklook-json qlprettypatch quicklook-csv qlimagesize webpquicklook suspicious-package
-
-# Fix QL plugins for Catalina
-defaults write org.n8gray.QLColorCode pathHL $(which highlight)
-xattr -cr ~/Library/QuickLook/QLMarkdown.qlgenerator
-
 # Remove outdated versions from the cellar.
 brew cleanup
