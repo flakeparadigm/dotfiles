@@ -45,9 +45,9 @@ git fetch
 read -p "Reset repo? (y/N) " GIT_RESET
 if [ "$GIT_RESET" == 'y' ]; then
     set -e
-    git checkout -b master
-    git branch -u origin/master
-    git reset --hard origin/master
+    git checkout -b main
+    git branch -u origin/main
+    git reset --hard origin/main
     unset -e
 fi
 
