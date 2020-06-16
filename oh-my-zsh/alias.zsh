@@ -7,6 +7,7 @@ alias vsc="code ."
 # directories
 alias c="cd ~/salt-developer/code"
 alias ca="cd ~/salt-developer/code/api"
+alias work="cd ~/work"
 
 # git
 alias gb="git checkout -b"
@@ -25,6 +26,9 @@ alias vw="vgutil workflow"
 alias vb="vgbuild dev"
 alias vbw="vgbuild watch"
 alias vgsyslog="vgutil run \"sudo journalctl -f\""
+
+# lde
+alias lde-php="docker-compose -f docker-compose.yml -f ./lde_config/docker-compose.cli.yml run --rm --service-ports -e COMPOSER_MEMORY_LIMIT=-1 php"
 
 # env
 alias vgdbg="DEBUGGER=true LRN_VG_VARS=DEBUGGER"
