@@ -39,11 +39,11 @@ brew install findutils
 brew install zsh
 
 # We installed the new shell, now we have to activate it
-echo "Adding the newly installed shell to the list of allowed shells"
-# Prompts for password
-sudo bash -c 'echo /usr/local/bin/zsh >> /etc/shells'
+echo "Setting default shell to Brew version of ZSH"
 # Change to the new shell, prompts for password
-chsh -s /usr/local/bin/zsh
+#sudo bash -c 'echo /usr/local/bin/zsh >> /etc/shells'
+#chsh -s /usr/local/bin/zsh
+sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
 
 # Install `wget`.
 brew install wget
@@ -58,7 +58,7 @@ brew install git-flow
 brew install git-extras
 brew install gnupg
 brew install pinentry-mac
-brew install hub
+brew install gh
 brew install ssh-copy-id
 brew install thefuck
 brew install tree
