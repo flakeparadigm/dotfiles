@@ -1,12 +1,10 @@
 alias za="vim ~/.oh-my-zsh/custom/alias.zsh && . ~/.zshrc"
 
 # programs
-alias a="atom ."
 alias vsc="code ."
 
 # directories
-alias c="cd ~/salt-developer/code"
-alias ca="cd ~/salt-developer/code/api"
+alias c="cd ~/code"
 alias work="cd ~/work"
 
 # git
@@ -20,25 +18,8 @@ alias gs="git status"
 alias gss="git stash show -p"
 alias gcp="git cherry-pick -x"
 
-# vg
-alias vt="vgtest run -t"
-alias vw="vgutil workflow"
-alias vb="vgbuild dev"
-alias vbw="vgbuild watch"
-alias vgsyslog="vgutil run \"sudo journalctl -f\""
-
-# lde
-alias lde-php="docker-compose -f docker-compose.yml -f ./lde_config/docker-compose.cli.yml run --rm --service-ports -e COMPOSER_MEMORY_LIMIT=-1 php"
-
-# env
-alias vgdbg="DEBUGGER=true LRN_VG_VARS=DEBUGGER"
-
-# PHP
-alias pbc="php bin/console"
-
 # python
 alias pyenv="source ./env/bin/activate"
 
 # macOS shortcuts
 alias clearbadge="defaults write com.apple.systempreferences AttentionPrefBundleIDs 0 && killall Dock"
-
