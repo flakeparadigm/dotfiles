@@ -27,7 +27,6 @@
     "workbench.colorTheme": "Bluloco Light",
     "git.autofetch": true,
     "workbench.statusBar.feedback.visible": false,
-    "window.zoomLevel": 0,
     "extensions.ignoreRecommendations": false,
     "eslint.validate": [
         "javascript",
@@ -48,5 +47,15 @@
     "editor.formatOnSave": false,
     "python.jediEnabled": false,
     "python.linting.enabled": true,
-    "java.configuration.checkProjectSettingsExclusions": false
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "window.restoreFullscreen": true,
+    "files.autoSave": "onFocusChange",
+    "window.zoomLevel": 0,
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
+    "jest.pathToJest": "yarn test",
+    "jest.runAllTestsFirst": false,
+    "debug.javascript.codelens.npmScripts": "never"
 }
