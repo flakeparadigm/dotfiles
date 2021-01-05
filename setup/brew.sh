@@ -83,5 +83,12 @@ brew cask install --appdir="/Applications" firefox
 #Remove comment to install LaTeX distribution MacTeX
 #brew cask install --appdir="/Applications" mactex
 
+# Make it possible to remove package w/deps
+brew tap beeftornado/rmtree
+
+# Install custom fonts
+brew tap homebrew/cask-fonts
+brew install font-fira-code
+
 # Remove outdated versions from the cellar.
 brew cleanup
